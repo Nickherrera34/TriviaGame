@@ -21,3 +21,12 @@ button{
 li{
 	font-size: 25px;
 }
+
+
+#finalCorrect, #finalIncorrect {
+	visibility: hidden;
+}
+
+#endingTitle {
+	visibility: hidden;
+}

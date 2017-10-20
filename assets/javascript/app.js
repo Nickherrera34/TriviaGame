@@ -37,7 +37,7 @@ $(document).ready(function(){
 
         $("#timeRemaining").html("<h2>Time Remaining: " + time + "</h2>");
 
-        if (interval === 0){
+        if (time === 0){
           stop();
         }
       }
@@ -45,11 +45,11 @@ $(document).ready(function(){
 //stop function
         function stop() {
           clearInterval(interval);
-            $("#timer").css("visibility", "hidden");
-            $("#questions").css("visibility", "hidden");
-            $("#done").css("visibility", "hidden");
-            $("#questions").css("visibility", "hidden");
-            $("#done").css("visibility", "hidden");
+            $("#timer").css("display", "none");
+            $("#questions").css("display", "none");
+            $("#done").css("display", "none");
+            $("#questions").css("display", "none");
+            $("#done").css("display", "none");
 
             $("#finalCorrect").html("Correct Answers: " + correct);
             $("#finalIncorrect").html("Incorrect Answers: " + incorrect);
@@ -75,9 +75,13 @@ var incorrect = 0;
 
 //done function
 $("#done").click(function(){
-  $("#timer").css("visibility", "hidden");
-  $("#questions").css("visibility", "hidden");
-  $("#done").css("visibility", "hidden");
+  $("#timer").css("display", "none");
+  $("#questions").css("display", "none");
+  $("#done").css("display", "none");
+
+  $("#endingTitle").css("visibility", "visible");
+  $("#finalCorrect").css("visibility", "visible");
+  $("#finalIncorrect").css("visibility", "visible");
 
   $("#finalCorrect").html("Correct Answers: " + correct);
   $("#finalIncorrect").html("Incorrect Answers: " + incorrect);
