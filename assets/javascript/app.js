@@ -51,6 +51,10 @@ $(document).ready(function(){
             $("#questions").css("display", "none");
             $("#done").css("display", "none");
 
+            $("#endingTitle").css("visibility", "visible");
+            $("#finalCorrect").css("visibility", "visible");
+            $("#finalIncorrect").css("visibility", "visible");
+
             $("#finalCorrect").html("Correct Answers: " + correct);
             $("#finalIncorrect").html("Incorrect Answers: " + incorrect);
         }
