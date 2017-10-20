@@ -1,0 +1,23 @@
+body{
+	padding: 100px;
+}
+
+#wrapper{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+button{
+	width: 500px;
+	height: 100px;
+}
+
+
+#timer, #questions, #done {
+	visibility: hidden; 
+}
+
+li{
+	font-size: 25px;
+}

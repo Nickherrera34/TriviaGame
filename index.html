@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous">		
+  	</script>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<section>
+			<div id="title">
+				<h1>Nick Herrera Trivia Game</h1>
+			</div>
+		</section>
+
+		<section>
+			<div id="ruleSection">
+				<p> Ever wonder how Nick got here? Ever wonder what his interests are? You're in luck! This game challenges you to judge a book by its cover and discover what you think you know about your current student. Unfortunately, I am not that interesting so this wont be the most exciting quiz you'll ever take. Either way, good luck! <br><br>
+
+				You will have 30 seconds to answer as many questions as you can. Hit the Start button to begin.
+				</p>
+			</div>
+		</section>
+
+		<section>
+			<div id="startButton">
+				<button>Start!</button>
+				
+			</div>
+
+		</section>
+
+
+		
+
+		<section>
+			<div id="timer">
+				<h2 id="timeRemaining">Time Remaining: 30</h2>
+			</div>
+		</section>
+
+		<section>
+			<div id="questions">
+				<ol>
+					<li>What event almost took Nick's life during a family vacation?</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Almost got hit by a train
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 Almost fell into a volvano
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Almost choked on a piece of shrimp in a fancy restaurant a la Mrs. Doubtfire
+		  								</label>
+							</div><hr>
+					
+
+					<li>What is one of Nick's Phobias?</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Worms
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 Bees
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Chickens
+		  								</label>
+							</div><hr>
+
+					<li>What is another one of Nick's Phobias?</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Public Speaking
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 The Dark
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Clowns
+		  								</label>
+							</div><hr>
+
+						<li>How often is Nick confused in class?</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  All of the time
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 Most of the time
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Never
+		  								</label>
+							</div><hr>
+
+						<li>Has Nick ever tried sushi?</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Yes
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 No
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Maybe
+		  								</label>
+							</div><hr>
+
+						<li>What rapper does Nick passionately dislake? (and when I say dislike, I actually mean hate) </li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Chance The Rapper
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 Kanye West
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Drake
+		  								</label>
+							</div><hr>
+
+						<li>What is the best show on TV (This is not an opinion, this is fact?)</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Game of Thrones
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 Young Sheldon
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Jersey Shore Reruns
+		  								</label>
+							</div><hr>
+
+
+						<li>Nick has a dog named after his favorite sports team/city. What is his dog's name?</li>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		   								  Chief
+		 						 </label>
+							</div>
+							<div class="form-check">
+		  						<label class="form-check-label">
+		   								 <input class="correct" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		    							 Dallas
+		 								 </label>
+							</div>
+							<div class="form-check label">
+		  								<label class="form-check-label">
+		    							<input class="incorrect" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+		   								 Bujumbura
+		  								</label>
+							</div><hr>					
+				</ol>				
+			</div>
+		</section>
+
+		<div id="endingTitle">
+				<h1>Let's see how you did...</h1>
+			</div>
+		</section>
+
+		<section>
+			<div class="endResults">
+				<h3 id="finalCorrect">test
+				</h3>
+			</div>
+			<div class="endResults">
+				<h3 id="finalIncorrect">test
+				</h3>
+			</div>
+		</section>
+
+
+
+
+		<section>
+			<div id="done">
+				<button>Done</button>
+			</div>
+		</section>
+
+
+	</div>
+
+
+
+
+</body>
+</html>
